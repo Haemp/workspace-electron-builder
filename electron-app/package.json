@@ -1,0 +1,17 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "DEBUG=electron-builder node build",
+    "build-inspect": "DEBUG=electron-builder node --inspect-brk build"
+  },
+  "dependencies": {
+    "package": "1.0.0",
+    "chalk": "2.4.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^20.38.2"
+  }
+}

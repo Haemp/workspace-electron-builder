@@ -1,0 +1,14 @@
+{
+    "name": "workspaces",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "electron-app",
+            "package"
+        ]
+    },
+    "author": "Haemp <wcw106@gmail.com>"
+}
